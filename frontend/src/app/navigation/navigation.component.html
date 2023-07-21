@@ -1,0 +1,24 @@
+<nav>
+    <ul class="nav-list left">
+        <li class="nav-list--item">
+            <img src="placeholder" alt="logo"/>
+        </li>
+        <li class="nav-list--item">
+            <a>News</a>
+        </li>
+        <li *ngIf="loggedIn" class="nav-list--item">
+            <a>Barbers</a>
+        </li>
+    </ul>
+    <ul class="nav-list right">
+        <li *ngIf="loggedIn" class="nav-list--item">
+            Reservations
+        </li>
+        <li *ngIf="!loggedIn" class="nav-list--item">
+            Login
+        </li>
+        <li *ngIf="loggedIn" class="nav-list--item">
+            Sign-out
+        </li>
+    </ul>
+</nav>
