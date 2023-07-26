@@ -47,6 +47,7 @@
 
 .form-login--div__pwd-reset {
     margin-top: 0.2rem;
+    font-size: 0.8rem;
     line-break: unset;
 }
 
@@ -54,14 +55,21 @@
     margin-top: 1rem;
     display: flex;
     padding-right: 3rem;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
+
 .form-login--div__submit button {
     background-color: var(--rose);
     border: none;
     height: 2rem;
     color: var(--nav-text);
     width: 20%;
+}
+
+.form-login--div__register{
+    margin-top: 0.5rem;
 }
 
 a:link {
