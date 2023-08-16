@@ -1,0 +1,27 @@
+<div class="form-login--container">
+    <form class="form-login--form" #loginForm="ngForm">
+        <div class="form-login--div">
+            <input [(ngModel)]="username" type="text" id="username" placeholder=" "/>
+            <label for="username">Username:</label>
+        </div>
+        <div class="form-login--div">
+            <input [(ngModel)]="password" type="text" id="password" placeholder=" "/>
+            <label for="password">Password:</label>
+        </div>
+        <div class="form-login--div">
+            <input [(ngModel)]="passwordR" type="text" id="password" placeholder=" "/>
+            <label for="password">Repeat password:</label>
+        </div>
+        <div class="form-login--div">
+            <input [(ngModel)]="mail" type="text" id="password" placeholder=" "/>
+            <label for="password">E-mail address:</label>
+        </div>
+        <div class="form-login--div">
+            <input [(ngModel)]="phoneNum" type="text" id="password" placeholder=" "/>
+            <label for="password">Phone number:</label>
+        </div>
+        <div class="form-login--div__submit">
+            <button (submit)="onSubmit()">REGISTER</button>
+        </div>
+    </form>
+</div>

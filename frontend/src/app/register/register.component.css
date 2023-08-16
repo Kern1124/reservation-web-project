@@ -1,0 +1,81 @@
+.form-login--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-login--form {
+    min-height: 18rem;
+    margin-top: 15%;
+    border-width: 2px;
+    border: solid;
+    font-weight: 300;
+    background-color: var(--dark);
+    color: var(--nav-text);
+    width: 27rem;
+    padding-left: 3rem;
+}
+.form-login--div {
+    position: relative;
+    
+}
+
+.form-login--div label {
+    position: absolute;
+    left: 0;
+    font-size: 0.9rem;
+}
+
+.form-login--div input {
+    background-color: var(--dark);
+    box-shadow: none;
+    border: 0;
+    border-bottom: 3px solid;
+    border-color: var(--nav-text);
+    height: 2rem;
+    width: 24rem;
+    color: var(--nav-text);
+}
+
+.form-login--div input:focus {
+    outline: none;
+    border-color: var(--rose);
+}
+
+.form-login--div input:focus + label, .form-login--div input:not(:placeholder-shown) + label{
+    transform: translateY(-1rem) translateX(-0.2rem) scale(0.8);
+}
+
+.form-login--div__pwd-reset {
+    margin-top: 0.2rem;
+    font-size: 0.8rem;
+    line-break: unset;
+}
+
+.form-login--div__submit {
+    margin-top: 1rem;
+    display: flex;
+    padding-right: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.form-login--div__submit button {
+    background-color: var(--rose);
+    border: none;
+    height: 2rem;
+    color: var(--nav-text);
+    width: 20%;
+}
+
+.form-login--div__register{
+    margin-top: 0.5rem;
+}
+
+a:link {
+    color: var(--nav-text);
+}
+a:visited {
+    color: var(--nav-text)
+}

@@ -1,0 +1,33 @@
+.sidebar {
+    height: 100%;
+    border-top: solid;
+    border-color: var(--rose);
+    width: 15%;
+    background-color: var(--dark);
+    position: fixed;
+    margin: 0;
+    top: 4rem;
+    display: flex;
+    justify-content: end;
+}
+
+.sidebar__retract {
+    padding: 0.8rem;
+    height: 1.1rem;
+    width: 1.1rem;
+    color: var(--nav-text);
+    margin: 0;
+    display: flex
+}
+
+.retract__text {
+    cursor: default;
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    text-align: center;
+}
+
+.sidebar__retract:hover {
+    background-color: var(--nav-select);
+}
