@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SidebarService } from './sidebar.service';
 
 @Component({
   selector: 'app-sidebar',
@@ -7,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class SidebarComponent {
 
+  retracted: boolean = false;
+
+  constructor(private sidebarService: SidebarService){}
+
+  retractSidebar(){
+    this.retracted = !this.retracted;
+  }
+  
 }

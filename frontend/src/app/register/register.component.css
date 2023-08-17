@@ -5,7 +5,7 @@
 }
 .form-login--form {
     min-height: 18rem;
-    margin-top: 15%;
+    margin-top: 10%;
     border-width: 2px;
     border: solid;
     font-weight: 300;
@@ -16,7 +16,7 @@
 }
 .form-login--div {
     position: relative;
-    
+    margin-top: 3rem;
 }
 
 .form-login--div label {

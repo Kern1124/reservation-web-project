@@ -1,5 +1,6 @@
-<div class="sidebar">
-    <div class="sidebar__retract">
-        <span class="retract__text"> < </span>
+<div class="sidebar" [class.sidebar-hidden]="retracted === true">
+    <div class="sidebar__button" (click)="retractSidebar()" [class.sidebar__button-retracted]="retracted === true">
+        <span class="retract__text" *ngIf="!retracted"> < </span>
+        <span class="retract__text" *ngIf="retracted"> > </span>
     </div>
 </div>
