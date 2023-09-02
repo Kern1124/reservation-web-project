@@ -1,0 +1,13 @@
+<app-sidebar></app-sidebar>
+
+<div class="home-container">
+    <article class="home__card" *ngFor="let item of items">
+        <img [src]="item.imgUrl" class="card__img"/>
+        <div class="card__text">
+            <h3>{{item.name}}</h3>
+            <p>
+                {{item.description}}
+            </p>
+        </div>
+    </article>
+</div>

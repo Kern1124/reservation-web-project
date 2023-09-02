@@ -8,9 +8,10 @@
     margin: 0;
     top: 4rem;
     display: flex;
-    justify-content: end;
     overflow: visible;
     padding: 0;
+    align-items: end;
+    flex-direction: column;
 }
 
 .sidebar__button {
@@ -26,10 +27,22 @@
     top:4rem;
 }
 
+.sidebar__content {
+    margin-top: 2.7rem;
+    width: 100%;
+    height: 100%;
+    border: solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
 .retract__text {
     cursor: default;
     align-self: center;
     justify-self: center;
+    font-weight: 300;
     width: 100%;
     text-align: center;
     cursor:pointer;

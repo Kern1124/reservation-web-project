@@ -1,0 +1,21 @@
+.home-container {
+    padding-top: 4.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-gap: 20px;
+    width: 80%;
+    margin: 0 10% 5%;
+}
+
+.home-container .home__card {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
+
+.home-container .home__card img {
+    max-width: 100%;
+}
+
+.card__text {
+    padding: 0 20px 20px;
+}

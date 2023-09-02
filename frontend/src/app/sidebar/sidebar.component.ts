@@ -8,7 +8,7 @@ import { SidebarService } from './sidebar.service';
 })
 export class SidebarComponent {
 
-  retracted: boolean = false;
+  retracted: boolean = true;
 
   constructor(private sidebarService: SidebarService){}
 
